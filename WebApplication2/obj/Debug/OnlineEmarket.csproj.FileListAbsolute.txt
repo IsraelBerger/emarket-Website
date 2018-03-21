@@ -1,0 +1,9 @@
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\obj\Debug\OnlineEmarket.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\obj\Debug\OnlineEmarket.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Admin\Source\Repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

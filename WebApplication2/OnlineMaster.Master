@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OnlineMaster.master.cs" Inherits="WebApplication2.OnlineMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<h1 >Hello World</h1>
+	
+	<div id="page" align="center">
+		<div id="content" style="width:800px">
+			<div id="logo">
+				<div style="margin-top:70px" class="whitetitle">Hello</div>
+			</div>
+			<div id="topheader">
+				<div align="left" class="bodytext">
+					<br />
+					<strong>Hello you</strong><br />
+					54 A Bethune Road<br />
+					London<br />
+					Phone: 07806524821<br />
+					bergeryisroel@gmail.com
+				</div>
+				<div id="toplinks" class="smallgraytext">
+					<a href="#">Home</a> | <a href="#">Sitemap</a> | <a href="#">Contact Us</a>
+				</div>
+			</div>
+			<div id="menu">
+				<div align="right" class="smallwhitetext" style="padding:9px;">
+					<a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Products</a> | <a href="#">Our Services</a> | <a href="#">Contact Us</a>
+				</div>
+			</div>
+			<div id="submenu">
+				<div align="right" class="smallgraytext" style="padding:9px;">
+					<a href="#">Submenu 1</a> | <a href="#">Submenu 2</a> | <a href="#">Submenu 3</a> | <a href="#">Submenu 4</a> | <a href="#">Submenu 5</a> | <a href="#">Submenu 6</a>
+				</div>
+			</div>
+			<div id="contenttext">
+				<div style="padding:10px">
+					<span   class="titletext" id="WelcomeM">Welcome !</span>
+					</div>
+					<div style="padding:10px">
+					<a   id="WelcomeMessage" >Welcome !</a>
+					</div>
+			</div>
+			<div  id="test4" runat="server"></div>
+			<div>
+				
+			</div>
+			<div id="leftpanel">
+				<div align="justify" class="graypanel">
+					<span class="smalltitle">News</span><br /><br />
+					<span class="smallredtext">September 27, 2006</span><br />
+					<span class="bodytext">Curabitur arcu tellus, suscipit in, aliquam eget, ultricies id, sapien. Nam est.</span><br />
+					<a href="#" class="smallgraytext">More...</a><br /><br />
+					<span class="smallredtext">September 27, 2006</span><br />
+					<span class="bodytext">Curabitur arcu tellus, suscipit in, aliquam eget, ultricies id, sapien. Nam est.</span><br />
+					<a href="#" class="smallgraytext">More...</a><br /><br />
+					<span class="smallredtext">September 27, 2006</span><br />
+					<span class="bodytext">Curabitur arcu tellus, suscipit in, aliquam eget, ultricies id, sapien. Nam est.</span><br />
+					<a href="#" class="smallgraytext">More...</a><br /><br />
+				</div>
+			</div>
+			<div id="footer" class="smallgraytext">
+				<a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Products</a> | <a href="#">Our Services</a> | <a href="#">Contact Us</a>
+				| Your Company Name 
+				&copy; 2007 | <a href="http://www.winkhosting.com" target="_blank">Hosting Colombia</a> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+
+	function Change() {
+		var Welcome = document.getElementsByTagName('h1');
+		Welcome[0].onclick = color;
+	}
+	function color() {
+		this.innerHTML = "Enjoy Browsing!";
+		var random = '#' + Math.floor(Math.random() * 16777215).toString(16);
+		this.style.color = random;
+	}
+
+	onload = Change();
+	function ChangeWelcome() {
+		var Welcome2 = document.getElementById('WelcomeMessage').innerHTML;
+		Welcome2.onclick = color2;
+	} function color2() {
+		var random2 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+		this.images.style.color2 = random2;
+	}
+	onload = ChangeWelcome();
+	function ChangeWelcome1() {
+		var Welcome1 = document.getElementById('WelcomeM').innerHTML;
+		Welcome1.onclick = color1;
+	} function color1() {
+		var random1 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+		this.images.style.color = random1;
+	}
+	onload = ChangeWelcome1();
+</script>
+	
+<body>
+    <form id="form2" runat="server"> 
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+   

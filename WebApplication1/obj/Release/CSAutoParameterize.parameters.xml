@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Local-Web.config Connection String" description="Local Connection String used in web.config by the application to access the database." defaultValue="Server=MIRIAM;Database=emarket;Connection timeout=10;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Local']/@connectionString" />
+  </parameter>
+  <parameter name="GearHostSqlServer-Web.config Connection String" description="GearHostSqlServer Connection String used in web.config by the application to access the database." defaultValue="Data Source= den1.mssql5.gear.host ;Initial Catalog=emarket;Integrated Security=False;user id=emarket;password=Eu08JKY7-f~M" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GearHostSqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="emarketConnectionString1-Web.config Connection String" description="emarketConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=MIRIAM;Initial Catalog=emarket;Integrated Security=True;Connect Timeout=10" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='emarketConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>

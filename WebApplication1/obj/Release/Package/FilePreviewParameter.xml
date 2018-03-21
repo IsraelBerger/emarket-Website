@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="emarket" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="emarketConnectionString1-Web.config Connection String" description="" value="Data Source=MIRIAM;Initial Catalog=emarket;Integrated Security=True;Connect Timeout=10" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='emarketConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="GearHostSqlServer-Web.config Connection String" description="" value="Data Source= den1.mssql5.gear.host ;Initial Catalog=emarket;Integrated Security=False;user id=emarket;password=Eu08JKY7-f~M" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GearHostSqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="Local-Web.config Connection String" description="" value="Server=MIRIAM;Database=emarket;Connection timeout=10;Integrated Security=SSPI;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Source\\Repos\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Local']/@connectionString" />
+  </parameter>
+</parameters>
